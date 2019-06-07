@@ -1,7 +1,7 @@
 'use strict';
 
 const Promise = require('bluebird');
-const SSHTunnel = require('ssh-tun');
+const SSHTunnel = require('@codezavod/ssh-tun');
 const Tunnel = require('../../lib/tunnel');
 const urlDecorator = require('../../lib/url-decorator');
 const defaults = require('../utils').defaults;
